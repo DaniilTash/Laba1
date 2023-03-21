@@ -1,0 +1,9 @@
+table{
+	width: 100%;
+	border: 2px solid;
+}
+
+td{
+	border: 2px solid;
+	text-align: center;
+}
