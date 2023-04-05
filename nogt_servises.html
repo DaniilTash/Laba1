@@ -3,70 +3,54 @@
 <head>
 	<title>Ногтевой сервис</title>
 	<link href="styles.css" rel="stylesheet">
+	<style>
+		.service {
+			border: 0px solid #ddd;
+			padding: 10px;
+			margin-bottom: 20px;
+		}
+
+			.service h2 {
+				margin-top: 0;
+			}
+
+			.service img {
+				max-width: 100%;
+			}
+        
+	</style>
 </head>
 <body>
-	<table>
-		<tr>
-			<td>
-				<a href="index.html">Главная страница</a>
-			</td>
-			<td>
-				<a href="nogt_servises.html">Ногтевой сервис</a>
-			</td>
-			<td>
-				<a href="pedikur.html">Педикюр</a>
-			</td>
-			<td>
-				<a href="manikur.html">Маникюр</a>
-			</td>
-		</tr>
-	</table>
-	<br>
-	
-	<table>
-		<tr>
-			<td>
-				Название процедуры
-			</td>
-			<td>
-				Фотография
-			</td>
-			<td>
-				Продолжительность процедуры
-			</td>
-			<td>
-				Количество Мастеров
-			</td>
-			<td>
-				Цена
-			</td>
-		</tr>
+	<nav>
+		<a href="index.html">Главная страница</a>
+		<a href="nogt_servises.html">Ногтевой сервис</a>
+		<a href="pedikur.html">Педикюр</a>
+		<a href="manikur.html">Маникюр</a>
+	</nav>
 
-		
-		<tr>
-			<td>Дизайн одного ногтя</td>
-			<td>Фотография отсутствует</td>
-			<td>5 мин</td>
-			<td>1</td>
-			<td>50</td>
-
-		</tr>
-		<tr>
-			<td>Парафин</td>
-			<td>Фотография отсутствует</td>
-			<td>15 мин</td>
-			<td>1</td>
-			<td>300</td>
-
-		</tr>
-		<tr>
-			<td>Френч/лунки</td>
-			<td>Фотография отсутствует</td>
-			<td>30 мин</td>
-			<td>2</td>
-			<td>450</td>
-
-		</tr>
-	</table>
+	<main>
+		<h1>Ногтевой сервис</h1>
+		<div class="service">
+			<h2>Дизайн одного ногтя</h2>
+			<p><img src = "design_one.jpg" width ="150" height ="150" alt = "Фотогрфия отсутствует"></p>
+			<p>5 мин</p>
+			<p>1 мастер</p>
+			<p>50</p>
+		</div>
+		<div class="service">
+			<h2>Парафин</h2>
+			<p><img src="parafin.jpg" width="180" height="150" alt="Фотогрфия отсутствует"></p>
+			<p>15 мин</p>
+			<p>1 мастер</p>
+			<p>300</p>
+		</div>
+		<div class="service">
+			<h2>Френч/лунки</h2>
+			<p><img src="french.jpg" width="150" height="150" alt="Фотогрфия отсутствует"></p>
+			<p>30 мин</p>
+			<p>2 мастера</p>
+			<p>450</p>
+		</div>
+	</main>
 </body>
 </html>
