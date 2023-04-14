@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Стили шапки */
+header {
+    background-color: #9d7ecc;
+    color: white;
+    padding: 20px 0;
+}
+
+    header h1 {
+        font-size: 32px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+nav {
+    font-size: 18px;
+    text-align: right;
+    margin-right: 20px;
+    margin-top: -40px;
+}
+
+    nav a {
+        text-decoration: none;
+        color: white;
+        margin-left: 15px;
+    }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+/* Стили основного контента */
+main {
+    background-color: #f1d0e1;
+    padding: 40px;
+    font-family: 'Lato', sans-serif;
+    color: #4d4d4d;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+p {
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+ul {
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+li {
+    margin-bottom: 10px;
+    list-style: none;
+}
+
+/* Стили футера */
+footer {
+    background-color: #caa2e2;
+    padding: 20px 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact, .sitemap {
+    width: 50%;
+    text-align: center;
+}
+
+    .contact h5, .sitemap h5 {
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .contact p, .sitemap ul {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    .sitemap ul {
+        list-style: none;
+    }
+
+        .sitemap ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+            .sitemap ul li a:hover {
+                text-decoration: underline;
+            }
+
+/* Оттенки */
+header {
+    background-color: #9d7ecc;
+}
+
+main {
+    background-color: #f1d0e1;
+}
+
+footer {
+    background-color: #caa2e2;
+}
+
+    nav a:hover, footer a:hover {
+        color: #ff69b4;
+    }
+
+h2 {
+    color: #494949;
+}
